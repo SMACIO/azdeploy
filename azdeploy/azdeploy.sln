@@ -5,6 +5,15 @@ VisualStudioVersion = 15.0.27019.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azdeploy", "azdeploy\azdeploy.csproj", "{1FA9B2BB-3789-4D57-9AF6-E67126E1BAAF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{70C8CF21-9117-451E-8358-D3A8C0F16FFA}"
+	ProjectSection(SolutionItems) = preProject
+		deploy\azdeploy.deploy-readme.txt = deploy\azdeploy.deploy-readme.txt
+		deploy\azdeploy.deploy.cmd = deploy\azdeploy.deploy.cmd
+		deploy\azdeploy.SetParameters.xml = deploy\azdeploy.SetParameters.xml
+		deploy\azdeploy.SourceManifest.xml = deploy\azdeploy.SourceManifest.xml
+		deploy\azdeploy.zip = deploy\azdeploy.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
