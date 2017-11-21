@@ -14,6 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{70C8CF
 		deploy\azdeploy.zip = deploy\azdeploy.zip
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DSC", "DSC", "{527496DC-9911-425F-9F38-E3042B09AAC9}"
+	ProjectSection(SolutionItems) = preProject
+		DSC\IISInstall.ps1.zip = DSC\IISInstall.ps1.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
